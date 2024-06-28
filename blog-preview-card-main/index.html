@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style></style>
+  </head>
+  <body>
+    <div
+      class="w-[100%] h-[100vh] bg-[#f6d050] flex items-center justify-center"
+    >
+      <div
+        class="p-[24px] mx-[24px] card max-w-[384px] bg-[white] rounded-[20px] border border-2 border-[#000] overflow-hidden shadow-[12px_12px_1px_rgba(0,0,0,1)]"
+      >
+        <img
+          src="/assets/images/illustration-article.svg"
+          alt="Illustration"
+          class="w-[100%] rounded-[10px] mb-[24px]"
+        />
+        <span
+          class="inline-block text-[14px] tag bg-[#f6d050] rounded-[10px] p-1 px-4 font-[800] w-auto mb-[12px]"
+          >Learning</span
+        >
+        <p class="mb-[12px] font-[600] text-[14px]">Published 21 Dec 2023</p>
+        <h1
+          class="heading text-[24px] font-[900] hover:text-[#f6d050] mb-[12px]"
+        >
+          HTML & CSS Foundations
+        </h1>
+        <p class="text-[grey] text-[16px] mb-[24px]">
+          These language are the backborn of every website, defining structure,
+          content and presentation.
+        </p>
+        <div class="flex gap-[5.5px] items-center">
+          <img
+            src="/assets/images/image-avatar.webp"
+            alt="avatar"
+            class="rounded-full w-[32px] h-[32px]"
+          />
+          <h4 class="font-[800] text-[14px]">Greg Hooper</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
